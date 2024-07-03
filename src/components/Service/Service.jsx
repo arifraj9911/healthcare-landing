@@ -56,7 +56,7 @@ const Service = () => {
           </div>
           <div className="w-1/2 relative">
             <img className="rounded-[30px]" src={healthBanner} alt="" />
-            <div className=" absolute bottom-5 left-5   text-left  w-1/2">
+            <div className=" absolute bottom-5 left-5 text-left  w-1/2">
               <div className="bg-[#343268] text-white opacity-60 py-8 pl-7 pr-4 space-y-5 rounded-[32px]">
                 <h4 className="text-xl font-medium">Consultancy your health</h4>
                 <p className="text-[12px] w-4/5 font-light">
