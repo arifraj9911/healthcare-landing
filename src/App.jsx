@@ -4,6 +4,7 @@ import Banner from './components/Banner/Banner'
 import GetSolutions from './components/GetSolutions/GetSolutions'
 import Header from './components/Header/Header'
 import Service from './components/Service/Service'
+import Testimonial from './components/Testimonial/Testimonial'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Banner></Banner>
       <GetSolutions></GetSolutions>
       <Service></Service>
+      <Testimonial></Testimonial>
       </div>
     </>
   )
