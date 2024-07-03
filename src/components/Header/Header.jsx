@@ -4,15 +4,15 @@ import logoNav from "../../assets/Image/logo dark.png";
 const Header = () => {
   const menuLink = (
     <>
-      <li className="mr-6 text-[16px]">Home</li>
-      <li className="mr-6 text-[16px]">Services</li>
-      <li className="mr-6 text-[16px]">Blog</li>
-      <li className="text-[16px]">About Us</li>
+      <li className="mr-1 text-[16px]"><a href="#">Home</a></li>
+      <li className="mr-1 text-[16px]"><a href="#service">Services</a></li>
+      <li className="mr-1 text-[16px]"><a href="#blog">Blog</a></li>
+      <li className="text-[16px]"><a href="#about">About Us</a></li>
     </>
   );
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 mt-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

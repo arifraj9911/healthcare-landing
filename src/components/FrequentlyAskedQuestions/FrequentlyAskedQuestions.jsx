@@ -7,7 +7,7 @@ const FrequentlyAskedQuestions = () => {
           Frequntly Asked Question
         </h2>
       </div>
-      <div className="join join-vertical text-left w-full space-y-3 mt-8">
+      <div className="join join-vertical text-left w-full space-y-4 mt-8 bg-white">
         <div className="collapse collapse-arrow join-item shadow">
           <input type="radio" name="my-accordion-4" defaultChecked />
           <div className="collapse-title text-xl font-medium">

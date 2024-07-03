@@ -2,6 +2,7 @@
 
 import AppointmentBanner from './components/AppointmentBanner/AppointmentBanner'
 import Banner from './components/Banner/Banner'
+import ComprehensiveCare from './components/ComprehensiveCare/ComprehensiveCare'
 import Footer from './components/Footer/Footer'
 import FrequentlyAskedQuestions from './components/FrequentlyAskedQuestions/FrequentlyAskedQuestions'
 import GetSolutions from './components/GetSolutions/GetSolutions'
@@ -14,15 +15,19 @@ function App() {
 
   return (
     <>
-      <div className='max-w-[1160px] mx-auto'>
+    <div className='bg-[#FBFBFB]'>
+    <div className='max-w-[1160px] mx-auto '>
       <Header></Header>
       <Banner></Banner>
+      <ComprehensiveCare></ComprehensiveCare>
       <GetSolutions></GetSolutions>
       <Service></Service>
       <Testimonial></Testimonial>
       <FrequentlyAskedQuestions></FrequentlyAskedQuestions>
       <AppointmentBanner></AppointmentBanner>
       </div>
+    </div>
+      
       <Footer></Footer>
     </>
   )

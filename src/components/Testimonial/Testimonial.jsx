@@ -14,7 +14,7 @@ const Testimonial = () => {
           What they say about us
         </h2>
         <div className="grid grid-cols-3 gap-12 mt-14">
-          <div className="space-y-6">
+          <div className="space-y-6 bg-white p-5 rounded-xl">
             <h4 className="text-2xl font-semibold">
               Expertise and Compassion Combined
             </h4>
@@ -40,7 +40,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 bg-white p-5 rounded-xl">
             <h4 className="text-2xl font-semibold">
               Life-Saving Care, Life-Changing Experience
             </h4>
@@ -65,7 +65,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 bg-white p-5 rounded-xl">
             <h4 className="text-2xl font-semibold">
               A Partner in Health and Wellness
             </h4>
