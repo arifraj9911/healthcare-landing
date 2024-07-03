@@ -13,7 +13,7 @@ const Service = () => {
           <h2 className="text-4xl my-4  leading-[54px] font-semibold">
             Empowering Health, Enriching Lives
           </h2>
-          <p className="font-normal text-[16px]">
+          <p className="font-normal text-[16px] text-[#4D4C7B]">
             We are committed to providing high-quality, compassionate care to
             every patient we serve. Whatever your healthcare needs may be, you
             can trust us to be your partner in health and wellness.

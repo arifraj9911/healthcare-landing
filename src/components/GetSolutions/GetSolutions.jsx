@@ -11,7 +11,7 @@ const GetSolutions = () => {
         <h2 className="text-4xl my-4 w-3/5 leading-[54px] font-semibold">
           We Help To Get Solutions
         </h2>
-        <p className="font-normal text-[16px]">
+        <p className="font-normal text-[16px] text-[#4D4C7B]">
           We are proud to be a trusted healthcare provider in our community, and
           we look forward to serving you and your family with excellence,
           integrity, and compassion. Your health is our priority, and we are

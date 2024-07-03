@@ -1,7 +1,8 @@
 
-import './App.css'
+
 import AppointmentBanner from './components/AppointmentBanner/AppointmentBanner'
 import Banner from './components/Banner/Banner'
+import Footer from './components/Footer/Footer'
 import FrequentlyAskedQuestions from './components/FrequentlyAskedQuestions/FrequentlyAskedQuestions'
 import GetSolutions from './components/GetSolutions/GetSolutions'
 import Header from './components/Header/Header'
@@ -22,6 +23,7 @@ function App() {
       <FrequentlyAskedQuestions></FrequentlyAskedQuestions>
       <AppointmentBanner></AppointmentBanner>
       </div>
+      <Footer></Footer>
     </>
   )
 }
