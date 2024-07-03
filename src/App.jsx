@@ -1,6 +1,7 @@
 
 import './App.css'
 import Banner from './components/Banner/Banner'
+import GetSolutions from './components/GetSolutions/GetSolutions'
 import Header from './components/Header/Header'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div className='max-w-[1160px] mx-auto'>
       <Header></Header>
       <Banner></Banner>
+      <GetSolutions></GetSolutions>
       </div>
     </>
   )
